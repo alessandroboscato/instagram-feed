@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  background-color: blue;
+}
+
+.container-navbar {
+  position: sticky;
+  top: 0px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+nav {
+  background-color: red;
+  height: 120px;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  margin-right: 30px;
+}
+
+.menu-navbar {
+  list-style: none;
+  display: flex;
+}
+
+.menu-navbar li {
+  margin-right: 20px;
+}
+
+header {
+  height: 550px;
+  background-color: green;
+}
+
+.entry {
+  height: 450px;
+  background-color: yellow;
+}
+
+.info {
+  height: 300px;
+  background-color: pink;
+}
+
+footer {
+  height: 300px;
+  background-color: grey;
+}
